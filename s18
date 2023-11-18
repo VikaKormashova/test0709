@@ -1,0 +1,12 @@
+Zoom_Speed = int(input())      # Скорость Зума
+Flash_Speed = int(input())     # Скорость Флеша
+
+if Zoom_Speed > Flash_Speed:   
+    print('NO')    
+    
+  
+elif Flash_Speed > Zoom_Speed: 
+    print('YES') 
+
+else:                          
+    print("Don't know")
